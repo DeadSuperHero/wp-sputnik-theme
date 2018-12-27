@@ -559,8 +559,8 @@ template {
 --------------------------------------------------------------*/
 
 @font-face {
-  font-family: "POLYA Regular";
-  src: url('../fonts/POLYA.otf');
+  font-family: POLYA;
+  src: url('/fonts/POLYA.otf');
 }
 
 
@@ -588,7 +588,7 @@ p {
 /*Set a programmatic override since the drop-cap is set by Gutenberg */
 
 p.has-drop-cap:not(:focus):first-letter {
-	font-family: "POLYA Regular";
+	font-family: POLYA;
 	font-weight: 500;
 	font-size: 100px;
 	color: #4a3446;
