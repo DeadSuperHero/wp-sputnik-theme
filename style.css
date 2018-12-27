@@ -585,7 +585,9 @@ p {
 	margin-bottom: 1.5em;
 }
 
-p.has-drop-cap :first-child:first-letter {
+/*Set a programmatic override since the drop-cap is set by Gutenberg */
+
+p.has-drop-cap:not(:focus):first-letter {
 	font-family: POLYA Regular;
 	font-weight: 800;
 	font-size: 25px;
