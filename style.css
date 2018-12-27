@@ -882,7 +882,7 @@ img.custom-logo {
 	padding: 7px;
 }
 
-.main-navigation li:active {
+.main-navigation li:active, .main-navigation li:focus {
     background: linear-gradient(#654960, #876481);
 }
 
