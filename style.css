@@ -74,10 +74,10 @@ header#masthead {
 }
 
 .site-branding {
-	display: inline-block;
-	height: inherit;
-	vertical-align: middle;
-	margin: 5px 0px 0px 10px;
+    display: inline-block;
+    height: inherit;
+    vertical-align: top;
+    margin: 5px 0px 0px 5px;
 }
 
 h1.site-title {
@@ -878,6 +878,12 @@ img.custom-logo {
 .main-navigation li {
 	float: left;
 	position: relative;
+	margin: 0;
+	padding: 7px;
+}
+
+.main-navigation li:active {
+    background: linear-gradient(#654960, #876481);
 }
 
 .main-navigation a {
