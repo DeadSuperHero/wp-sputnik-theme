@@ -139,6 +139,11 @@ function dsh_video_embed() {
 }
 add_action(	'init', 'dsh_video_embed' );
 
+function wedistribute_video_embed() {
+	wp_oembed_add_provider( 'https://video.wedistribute.org/video/watch/*', 'https://video.wedistribute.org/video/embed/', false );
+}
+add_action(	'init', 'wedistribute_video_embed' );
+
 /**
  * Implement the Custom Header feature.
  */
