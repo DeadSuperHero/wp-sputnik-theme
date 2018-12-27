@@ -1029,6 +1029,10 @@ img.custom-logo {
     vertical-align: middle;
 }
 
+.menu-item i._before, .rtl .menu-item i._after {
+    font-size: 30px;
+}
+
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
 		display: none;
