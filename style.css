@@ -559,8 +559,12 @@ template {
 --------------------------------------------------------------*/
 
 @font-face {
-  font-family: POLYA;
-  src: url('/fonts/POLYA.otf') format('opentype');
+	font-family: 'POLYA';
+	src: url('../fonts/hinted-POLYARegular-Regular.eot');
+	src: url('../fonts/hinted-POLYARegular-Regular.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/hinted-POLYARegular-Regular.woff2') format('woff2'),
+			url('../fonts/hinted-POLYARegular-Regular.woff') format('woff'),
+			url('../fonts/hinted-POLYARegular-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
