@@ -54,11 +54,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- /* Import CSS for ForkAwesome to work */
-
- @import url("fork-awesome.css");
- @import url("v5-compat.css");
-
 #wpadminbar {
 	display: none;
 }
@@ -1026,6 +1021,12 @@ img.custom-logo {
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
+}
+
+.menu-item img._before, .rtl .menu-item img._after {
+    margin-right: .2em;
+    font-size: 30px;
+    vertical-align: middle;
 }
 
 @media screen and (min-width: 37.5em) {
