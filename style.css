@@ -560,7 +560,7 @@ template {
 
 @font-face {
   font-family: POLYA;
-  src: url('https://wedistribute.org/wp-content/fonts/POLYA.otf') format('opentype');
+  src: url('/fonts/POLYA.otf') format('opentype');
 	font-weight: normal;
 	font-style: normal;
 }
