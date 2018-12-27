@@ -864,6 +864,11 @@ ul.sub-menu li, ul.sub-menu li a {
 	color: #000;
 }
 
+ul.sub-menu img._mi _before._image {
+	height: auto;
+	width: 25px;
+}
+
 
 img.custom-logo {
 	width: 50px;
