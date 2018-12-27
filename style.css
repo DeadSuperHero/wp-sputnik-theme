@@ -585,7 +585,7 @@ p {
 	margin-bottom: 1.5em;
 }
 
-p.has-drop-cap:first-child:first-letter {
+p.has-drop-cap :first-child:first-letter {
 	font-family: POLYA Regular;
 	font-weight: 800;
 	font-size: 25px;
