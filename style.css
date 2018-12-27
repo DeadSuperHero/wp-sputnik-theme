@@ -887,6 +887,7 @@ img.custom-logo {
 	font-size: 15px;
 	font-weight: 800;
 	color: #fff;
+	min-height: 30px;
 }
 
 .main-navigation a:hover {
@@ -1030,7 +1031,9 @@ img.custom-logo {
 }
 
 .menu-item i._before, .rtl .menu-item i._after {
-    font-size: 30px;
+    font-size: 25px;
+    margin: auto;
+    margin-right: .2em;
 }
 
 @media screen and (min-width: 37.5em) {
