@@ -20,16 +20,16 @@
 
 		if ( 'post' === get_post_type() ) :
 			?>
-			<div class="entry-meta">
-				<?php
-				sputnik_posted_on();
-				sputnik_posted_by();
-				?>
-			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
 	<?php sputnik_post_thumbnail(); ?>
+	<div class="entry-meta">
+		<?php
+		sputnik_posted_on();
+		sputnik_posted_by();
+		?>
+	</div><!-- .entry-meta -->
 
 	<div class="entry-content">
 		<?php

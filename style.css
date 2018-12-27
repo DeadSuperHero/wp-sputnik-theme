@@ -73,6 +73,11 @@ header#masthead {
 	max-height: 60px;
 }
 
+header.entry-meta {
+	background: #e4dbd1;
+	padding: 10px;
+}
+
 .site-branding {
     display: inline-block;
     height: inherit;
@@ -552,6 +557,13 @@ template {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+
+@font-face {
+  font-family: POLYA Regular;
+  src: url(../fonts/POLYA.otf);
+}
+
+
 body,
 button,
 input,
@@ -571,6 +583,13 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
 	margin-bottom: 1.5em;
+}
+
+p.has-drop-cap:first-child:first-letter {
+	font-family: POLYA Regular;
+	font-weight: 800;
+	font-size: 25px;
+	color: #876481;
 }
 
 dfn, cite, em, i {
