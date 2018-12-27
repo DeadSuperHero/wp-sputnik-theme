@@ -117,7 +117,7 @@ aside#secondary {
 }
 
 .site-content {
-	max-width: 75%;
+	max-width: 80%;
 	margin: auto;
 	margin-top: 7rem;
 }
@@ -855,6 +855,15 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+ul.sub-menu {
+	background: #fff;
+	border-radius: 0px 0px 5px 5px;
+}
+
+ul.sub-menu li, ul.sub-menu li a {
+	color: #000;
+}
+
 
 img.custom-logo {
 	width: 50px;
