@@ -605,13 +605,13 @@ dfn, cite, em, i {
 }
 
 blockquote {
-	margin: 3em 0em 2em 2em;
-    font-size: 25px;
-    font-family: Times New Roman;
-    border-left: 7px double;
-    padding-left: 0.5em;
-    color: #6e6e6e;
-    font-style: italic;
+	margin: 1em 0em 0em 1em;
+	font-size: 25px;
+	font-family: Times New Roman;
+	border-left: 7px double;
+	padding-left: 0.5em;
+	color: #6e6e6e;
+	font-style: italic;
 }
 
 blockquote cite {
