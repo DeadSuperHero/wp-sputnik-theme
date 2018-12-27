@@ -70,6 +70,7 @@ header#masthead {
 	z-index: 99999;
 	top: 0;
 	left: 0;
+	max-height: 60px;
 }
 
 .site-branding {
@@ -502,7 +503,7 @@ textarea {
 /* Search Adjustments */
 #search_box {
 	display: inline-block;
-	margin: 25px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
 	background: #fff;
 	padding: 3px;
 	border-radius: 5px;
@@ -829,7 +830,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 
 img.custom-logo {
-	width: 75px;
+	width: 50px;
 }
 
 .main-navigation {
