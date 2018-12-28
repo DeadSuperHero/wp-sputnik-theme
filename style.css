@@ -1005,6 +1005,10 @@ img.custom-logo {
 		 display: none;
 	 }
 
+	 .main-navigation ul.sub-menu span {
+		 display: block;
+	 }
+
   #primary {
       max-width: 100%;
       display: inline-block;
