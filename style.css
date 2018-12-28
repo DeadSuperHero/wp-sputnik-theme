@@ -1001,6 +1001,10 @@ img.custom-logo {
       margin-top: 4em;
    }
 
+	 .main-navigation ul span {
+		 display: none;
+	 }
+
   #primary {
       max-width: 100%;
       display: inline-block;
@@ -1091,10 +1095,6 @@ img.custom-logo {
 	}
 	.main-navigation ul {
 		display: block;
-	}
-
-	.main-navigation ul span {
-		display: none;
 	}
 }
 
