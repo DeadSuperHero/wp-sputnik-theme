@@ -1006,7 +1006,7 @@ img.custom-logo {
 	 }
 
 	 .main-navigation ul.sub-menu span {
-		 display: block;
+		 display: inline-block;
 	 }
 
   #primary {
