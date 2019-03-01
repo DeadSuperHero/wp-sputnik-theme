@@ -997,7 +997,7 @@ img.custom-logo {
 }
 
 #primary article {
-	width: 65%;
+	width: 75%;
 	margin: auto;
 }
 
@@ -1467,6 +1467,20 @@ object {
 
 
 /* Share Bar Support */
+
+#share_bar {
+	display: inline-block;
+	width: 12%;
+	float: left;
+	margin-right: 7%;
+}
+
+#article_insert {
+	display: inline-block;
+	width: 80%;
+}
+
+
 /* Utility classes */
 .rounded {
   border-radius: 6px; }

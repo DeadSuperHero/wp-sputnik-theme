@@ -36,10 +36,10 @@
 
 <div id="share_bar">
 	<div class="share">
-      <label class="dex-btn diaspora" title="Share this page on Diaspora" for="diaspora-share">
+      <label class="dex-btn wo-text diaspora" title="Share this page on Diaspora" for="diaspora-share">
         <svg role="img" class="dex-icon" width="16" height="16">
           <use xlink:href="#icon-diaspora"></use>
-        </svg><span>Diaspora</span>
+        </svg>
       </label>
       <input name="popup" id="diaspora-share" class="hidden" type="radio">
       <span class="popup">
@@ -48,10 +48,10 @@
       </span>
     </div>
     <div class="share">
-      <label class="dex-btn mastodon" title="Share this page on Mastodon" for="mastodon-share">
+      <label class="dex-btn wo-text mastodon" title="Share this page on Mastodon" for="mastodon-share">
         <svg role="img" class="dex-icon" width="16" height="16">
           <use xlink:href="#icon-mastodon"></use>
-        </svg><span>Mastodon</span>
+        </svg>
       </label>
       <input name="popup" id="mastodon-share" class="hidden" type="radio">
       <span class="popup">
@@ -60,10 +60,10 @@
       </span>
     </div>
     <div class="share">
-      <label class="dex-btn hubzilla" title="Share this page on Hubzilla" for="hubzilla-share">
+      <label class="dex-btn wo-text hubzilla" title="Share this page on Hubzilla" for="hubzilla-share">
         <svg role="img" class="dex-icon" width="16" height="16">
           <use xlink:href="#icon-hubzilla"></use>
-        </svg><span>Hubzilla</span>
+        </svg>
       </label>
       <input name="popup" id="hubzilla-share" class="hidden" type="radio">
       <span class="popup">
@@ -72,10 +72,10 @@
       </span>
     </div>
     <div class="share">
-      <label class="dex-btn gnusocial" title="Share this page on GNU Social" for="gnusocial-share">
+      <label class="dex-btn wo-text gnusocial" title="Share this page on GNU Social" for="gnusocial-share">
         <svg role="img" class="dex-icon" width="16" height="16">
           <use xlink:href="#icon-gnusocial"></use>
-        </svg><span>GNU Social</span>
+        </svg>
       </label>
       <input name="popup" id="gnusocial-share" class="hidden" type="radio">
       <span class="popup">
@@ -84,10 +84,10 @@
       </span>
     </div>
     <div class="share">
-      <label class="dex-btn friendica" title="Share this page on Friendica" for="friendica-share">
+      <label class="dex-btn wo-text friendica" title="Share this page on Friendica" for="friendica-share">
         <svg role="img" class="dex-icon" width="16" height="16">
           <use xlink:href="#icon-friendica"></use>
-        </svg><span>Friendica</span>
+        </svg>
       </label>
       <input name="popup" id="friendica-share" class="hidden" type="radio">
       <span class="popup">
@@ -96,10 +96,10 @@
       </span>
     </div>
     <div class="share">
-      <label class="dex-btn socialhome" title="Share this page on Socialhome" for="socialhome-share">
+      <label class="dex-btn wo-text socialhome" title="Share this page on Socialhome" for="socialhome-share">
         <svg role="img" class="dex-icon" width="16" height="16">
           <use xlink:href="#icon-socialhome"></use>
-        </svg><span>Socialhome</span>
+        </svg>
       </label>
       <input name="popup" id="socialhome-share" class="hidden" type="radio">
       <span class="popup">
