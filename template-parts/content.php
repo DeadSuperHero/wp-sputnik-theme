@@ -98,17 +98,16 @@
     </div>
 </div>
 
+<div class="entry-meta">
+	<?php
+	sputnik_posted_on();
+	sputnik_posted_by();
+	?>
+</div><!-- .entry-meta -->
+
+<?php sputnik_post_thumbnail(); ?>
+
 <div class="article_insert">
-	<div class="entry-meta">
-		<?php
-		sputnik_posted_on();
-		sputnik_posted_by();
-		?>
-	</div><!-- .entry-meta -->
-
-	<?php sputnik_post_thumbnail(); ?>
-
-
 		<div class="entry-content">
 			<?php
 			the_content( sprintf(
