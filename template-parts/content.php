@@ -33,6 +33,7 @@
 
 	<?php sputnik_post_thumbnail(); ?>
 
+	<script src="share.min.js"></script>
 
 <div id="share_bar">
 	<div class="share">

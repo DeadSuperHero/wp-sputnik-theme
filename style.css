@@ -1502,13 +1502,14 @@ object {
 .dex-btn {
   font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Open Sans", "Cantarell",  sans-serif;
   display: inline-block;
-  height: 34px;
+  height: 50px;
   line-height: 1.6;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
   font-size: .85rem;
   margin: 0 .2em;
+	width: auto;
   border: none;
   padding-top: 4px;
   -webkit-box-sizing: border-box;
