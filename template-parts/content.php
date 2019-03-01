@@ -22,14 +22,7 @@
 			?>
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-
-	<div class="entry-meta">
-		<?php
-		sputnik_posted_on();
-		sputnik_posted_by();
-		?>
-	</div><!-- .entry-meta -->
-
+<div class="article_insert">
 <div id="share_bar">
 	<div class="share">
       <label class="dex-btn diaspora" title="Share this page on Diaspora" for="diaspora-share">
@@ -105,7 +98,15 @@
     </div>
 </div>
 
+<div class="entry-meta">
+	<?php
+	sputnik_posted_on();
+	sputnik_posted_by();
+	?>
+</div><!-- .entry-meta -->
+
 	<?php sputnik_post_thumbnail(); ?>
+
 
 	<div class="entry-content">
 		<?php
@@ -128,7 +129,7 @@
 		) );
 		?>
 	</div><!-- .entry-content -->
-
+</div>
 	<footer class="entry-footer">
 		<?php sputnik_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
