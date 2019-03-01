@@ -33,8 +33,6 @@
 
 	<?php sputnik_post_thumbnail(); ?>
 
-	<script src="js/share.js"></script>
-
 <div id="share_bar">
 	<div class="share">
       <label class="dex-btn wo-text diaspora" title="Share this page on Diaspora" for="diaspora-share">
