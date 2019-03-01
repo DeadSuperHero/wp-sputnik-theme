@@ -23,6 +23,17 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
+
+	<div class="entry-meta">
+		<?php
+		sputnik_posted_on();
+		sputnik_posted_by();
+		?>
+	</div><!-- .entry-meta -->
+
+	<?php sputnik_post_thumbnail(); ?>
+
+
 <div id="share_bar">
 	<div class="share">
       <label class="dex-btn diaspora" title="Share this page on Diaspora" for="diaspora-share">
@@ -97,15 +108,6 @@
       </span>
     </div>
 </div>
-
-<div class="entry-meta">
-	<?php
-	sputnik_posted_on();
-	sputnik_posted_by();
-	?>
-</div><!-- .entry-meta -->
-
-<?php sputnik_post_thumbnail(); ?>
 
 <div class="article_insert">
 		<div class="entry-content">
