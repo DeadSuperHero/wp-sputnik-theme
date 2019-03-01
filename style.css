@@ -1476,7 +1476,7 @@ object {
 	top: 100px;
 }
 
-#article_insert {
+.article_insert {
 	display: inline-block;
 	width: 85%;
 	vertical-align: top;
