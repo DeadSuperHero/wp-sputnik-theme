@@ -30,6 +30,81 @@
 		?>
 	</div><!-- .entry-meta -->
 
+<div id="share_bar">
+	<div class="share">
+      <label class="dex-btn diaspora" title="Share this page on Diaspora" for="diaspora-share">
+        <svg role="img" class="dex-icon" width="16" height="16">
+          <use xlink:href="#icon-diaspora"></use>
+        </svg><span>Diaspora</span>
+      </label>
+      <input name="popup" id="diaspora-share" class="hidden" type="radio">
+      <span class="popup">
+        <label for="overlay"></label>
+        <input name="podurl" value="" placeholder="Diaspora URL (nerdpol.ch)" type="text"><button class="share-btn" type="submit" value="diaspora">OK</button>
+      </span>
+    </div>
+    <div class="share">
+      <label class="dex-btn mastodon" title="Share this page on Mastodon" for="mastodon-share">
+        <svg role="img" class="dex-icon" width="16" height="16">
+          <use xlink:href="#icon-mastodon"></use>
+        </svg><span>Mastodon</span>
+      </label>
+      <input name="popup" id="mastodon-share" class="hidden" type="radio">
+      <span class="popup">
+        <label for="overlay"></label>
+        <input name="podurl" value="" placeholder="Mastodon URL (witches.town)" type="text"><button class="share-btn" type="submit"  value="mastodon">OK</button>
+      </span>
+    </div>
+    <div class="share">
+      <label class="dex-btn hubzilla" title="Share this page on Hubzilla" for="hubzilla-share">
+        <svg role="img" class="dex-icon" width="16" height="16">
+          <use xlink:href="#icon-hubzilla"></use>
+        </svg><span>Hubzilla</span>
+      </label>
+      <input name="popup" id="hubzilla-share" class="hidden" type="radio">
+      <span class="popup">
+        <label for="overlay"></label>
+        <input name="podurl" value="" placeholder="Hubzilla URL (gerzilla.de)" type="text"><button class="share-btn" type="submit"  value="hubzilla">OK</button>
+      </span>
+    </div>
+    <div class="share">
+      <label class="dex-btn gnusocial" title="Share this page on GNU Social" for="gnusocial-share">
+        <svg role="img" class="dex-icon" width="16" height="16">
+          <use xlink:href="#icon-gnusocial"></use>
+        </svg><span>GNU Social</span>
+      </label>
+      <input name="popup" id="gnusocial-share" class="hidden" type="radio">
+      <span class="popup">
+        <label for="overlay"></label>
+        <input name="podurl" value="" placeholder="GNU Social URL (quitter.se)" type="text"><button class="share-btn" type="submit"  value="gnusocial">OK</button>
+      </span>
+    </div>
+    <div class="share">
+      <label class="dex-btn friendica" title="Share this page on Friendica" for="friendica-share">
+        <svg role="img" class="dex-icon" width="16" height="16">
+          <use xlink:href="#icon-friendica"></use>
+        </svg><span>Friendica</span>
+      </label>
+      <input name="popup" id="friendica-share" class="hidden" type="radio">
+      <span class="popup">
+        <label for="overlay"></label>
+        <input name="podurl" value="" placeholder="Friendica URL (libranet.de)" type="text"><button class="share-btn" type="submit"  value="friendica">OK</button>
+      </span>
+    </div>
+    <div class="share">
+      <label class="dex-btn socialhome" title="Share this page on Socialhome" for="socialhome-share">
+        <svg role="img" class="dex-icon" width="16" height="16">
+          <use xlink:href="#icon-socialhome"></use>
+        </svg><span>Socialhome</span>
+      </label>
+      <input name="popup" id="socialhome-share" class="hidden" type="radio">
+      <span class="popup">
+        <label for="overlay"></label>
+        <input name="podurl" value="" placeholder="Socialhome URL (socialhome.network)" type="text"><button class="share-btn" type="submit" value="socialhome">OK</button>
+      </span>
+    </div>
+</div>
+
 	<?php sputnik_post_thumbnail(); ?>
 
 	<div class="entry-content">
