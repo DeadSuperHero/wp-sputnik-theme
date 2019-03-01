@@ -111,7 +111,7 @@ body {
 
 aside#secondary {
 	display: inline-block;
-	width: 250px;
+	width: 25%;
 	margin: auto;
 	vertical-align: top;
 }
@@ -119,7 +119,7 @@ aside#secondary {
 .site-content {
 	max-width: 80%;
 	margin: auto;
-	margin-top: 7rem;
+	margin-top: 4rem;
 }
 
 /**
@@ -606,13 +606,12 @@ dfn, cite, em, i {
 }
 
 blockquote {
-	margin: 1em 0em 0em 1em;
-	font-size: 25px;
-	font-family: Times New Roman;
-	border-left: 7px double;
-	padding-left: 0.5em;
-	color: #6e6e6e;
-	font-style: italic;
+    margin: 1em 0em 0em 1em;
+    font-size: 22px;
+    font-family: sans-serif;
+    border-left: 4px solid;
+    padding-left: 0.5em;
+    color: #808080;
 }
 
 blockquote cite {
@@ -997,9 +996,20 @@ img.custom-logo {
 
 }
 
+#primary article {
+	width: 65%;
+	margin: auto;
+}
+
 /* For Mobile */
 
 @media only screen and (max-width: 600px) {
+
+
+	#primary article {
+		width: 100%;
+		margin: auto;
+	}
 
   .site-content {
       max-width: 95%;
