@@ -22,7 +22,7 @@
 			?>
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-<div class="article_insert">
+
 <div id="share_bar">
 	<div class="share">
       <label class="dex-btn diaspora" title="Share this page on Diaspora" for="diaspora-share">
@@ -129,7 +129,7 @@
 		) );
 		?>
 	</div><!-- .entry-content -->
-</div>
+
 	<footer class="entry-footer">
 		<?php sputnik_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
