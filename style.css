@@ -1470,14 +1470,16 @@ object {
 
 #share_bar {
 	display: inline-block;
-	width: 12%;
-	float: left;
-	margin-right: 7%;
+	width: 10%;
+	vertical-align: top;
+	position: sticky;
+	top: 100px;
 }
 
 #article_insert {
 	display: inline-block;
-	width: 80%;
+	width: 85%;
+	vertical-align: top;
 }
 
 
