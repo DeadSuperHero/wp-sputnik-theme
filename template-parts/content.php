@@ -37,7 +37,7 @@
 <div id="share_bar">
 	<div class="share">
       <label class="dex-btn wo-text diaspora" title="Share this page on Diaspora" for="diaspora-share">
-        <svg role="img" class="dex-icon" width="16" height="16">
+        <svg role="img" class="dex-icon" width="50" height="50">
           <use xlink:href="#icon-diaspora"></use>
         </svg>
       </label>
@@ -49,7 +49,7 @@
     </div>
     <div class="share">
       <label class="dex-btn wo-text mastodon" title="Share this page on Mastodon" for="mastodon-share">
-        <svg role="img" class="dex-icon" width="16" height="16">
+        <svg role="img" class="dex-icon" width="50" height="50">
           <use xlink:href="#icon-mastodon"></use>
         </svg>
       </label>
@@ -61,7 +61,7 @@
     </div>
     <div class="share">
       <label class="dex-btn wo-text hubzilla" title="Share this page on Hubzilla" for="hubzilla-share">
-        <svg role="img" class="dex-icon" width="16" height="16">
+        <svg role="img" class="dex-icon" width="50" height="50">
           <use xlink:href="#icon-hubzilla"></use>
         </svg>
       </label>
@@ -73,7 +73,7 @@
     </div>
     <div class="share">
       <label class="dex-btn wo-text gnusocial" title="Share this page on GNU Social" for="gnusocial-share">
-        <svg role="img" class="dex-icon" width="16" height="16">
+        <svg role="img" class="dex-icon" width="50" height="50">
           <use xlink:href="#icon-gnusocial"></use>
         </svg>
       </label>
@@ -85,7 +85,7 @@
     </div>
     <div class="share">
       <label class="dex-btn wo-text friendica" title="Share this page on Friendica" for="friendica-share">
-        <svg role="img" class="dex-icon" width="16" height="16">
+        <svg role="img" class="dex-icon" width="50" height="50">
           <use xlink:href="#icon-friendica"></use>
         </svg>
       </label>
@@ -97,7 +97,7 @@
     </div>
     <div class="share">
       <label class="dex-btn wo-text socialhome" title="Share this page on Socialhome" for="socialhome-share">
-        <svg role="img" class="dex-icon" width="16" height="16">
+        <svg role="img" class="dex-icon" width="50" height="50">
           <use xlink:href="#icon-socialhome"></use>
         </svg>
       </label>
