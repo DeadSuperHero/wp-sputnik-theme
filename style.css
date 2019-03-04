@@ -1017,6 +1017,11 @@ img.custom-logo {
       margin-top: 4em;
    }
 
+	 .article_insert {
+    display: inline-block;
+    width: 100%;
+}
+
 	 .main-navigation ul span {
 		 display: none;
 	 }
@@ -1478,7 +1483,7 @@ object {
 
 .article_insert {
 	display: inline-block;
-	width: 85%;
+	width: 100%%;
 	vertical-align: top;
 }
 
