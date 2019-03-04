@@ -78,6 +78,19 @@ header.entry-meta {
 	padding: 10px;
 }
 
+.entry-meta {
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+span.byline {
+	float: right;
+}
+
+span.posted-on {
+	float: left;
+}
+
 .site-branding {
     display: inline-block;
     height: inherit;
@@ -230,6 +243,7 @@ tptn_posts_daily .tptn_title, .tptn_posts .tptn_title {
 
 h1.entry-title {
 	font-weight: 300;
+	margin: 0;
 }
 
 .post-thumbnail img {
@@ -1278,7 +1292,7 @@ img.custom-logo {
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 1.5em 0 0;
+	margin: 0;
 }
 
 .page-links {
