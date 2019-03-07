@@ -1011,7 +1011,7 @@ img.custom-logo {
 }
 
 #primary article {
-	width: 75%;
+	width: 95%;
 	margin: auto;
 }
 
@@ -1348,6 +1348,19 @@ ul.comment-list ul.children {
 }
 
 
+li.recentcomments.recent-comment {
+	padding: 5px;
+	border: 1px solid #c7c7c7;
+	border-radius: 4px;
+}
+
+li.recentcomments.recent-comment span.comment-date {
+	text-align: right;
+}
+
+li.recentcomments.recent-comment img.avatar {
+	border-radius: 5px;
+}
 
 .site-footer {
 	background: #7b7b7be6;
