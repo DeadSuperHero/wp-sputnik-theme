@@ -1312,11 +1312,12 @@ img.custom-logo {
 }
 
 .comment-content {
-   border: 1px solid #ddd;
-   border-radius: 3px;
-   display: inline-block;
-   padding: 0px 10px 0px 9px;
-   word-wrap: break-word;
+	border: 1px solid #afafaf;
+	border-radius: 3px;
+	display: inline-block;
+	padding: 0px 10px 0px 9px;
+	word-wrap: break-word;
+	background: #fff;
 }
 
 .comment-content img.emoji {
@@ -1360,6 +1361,11 @@ li.recentcomments.recent-comment span.comment-date {
 
 li.recentcomments.recent-comment img.avatar {
 	border-radius: 5px;
+}
+
+#comments {
+	background: #e3e3e3;
+  padding: 0px 10px 10px 10px;
 }
 
 .site-footer {
