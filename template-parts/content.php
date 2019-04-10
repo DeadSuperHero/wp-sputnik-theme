@@ -60,5 +60,8 @@
 			) );
 			?>
 		</div><!-- .entry-content -->
+	<?php
+		comments_template();
+	?>
 	</div>
 </article><!-- #post-<?php the_ID(); ?> -->
