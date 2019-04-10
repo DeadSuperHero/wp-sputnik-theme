@@ -620,12 +620,12 @@ dfn, cite, em, i {
 }
 
 blockquote {
-    margin: 1em 0em 0em 1em;
-    font-size: 22px;
-    font-family: sans-serif;
-    border-left: 4px solid;
-    padding-left: 0.5em;
-    color: #808080;
+	margin: 1em 0em 0em 0em;
+	font-size: 18px;
+	font-family: sans-serif;
+	border-left: 4px solid;
+	padding-left: 0.5em;
+	color: #808080;
 }
 
 blockquote cite {
@@ -1011,7 +1011,7 @@ img.custom-logo {
 }
 
 #primary article {
-	width: 95%;
+	width: 80%;
 	margin: auto;
 }
 
