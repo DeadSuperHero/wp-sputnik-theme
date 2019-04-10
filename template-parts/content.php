@@ -35,9 +35,6 @@
 	</div><!-- .entry-meta -->
 	<?php sputnik_post_thumbnail(); ?>
 
-	<footer class="entry-footer">
-		<?php sputnik_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
 
 		<div class="entry-content">
 			<?php
@@ -60,6 +57,11 @@
 			) );
 			?>
 		</div><!-- .entry-content -->
+
+		<footer class="entry-footer">
+			<?php sputnik_entry_footer(); ?>
+		</footer><!-- .entry-footer -->
+
 	<?php
 		comments_template();
 	?>
