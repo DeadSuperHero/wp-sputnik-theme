@@ -20,7 +20,7 @@ get_header();
 			get_template_part( 'template-parts/content', get_post_type() );
 		endwhile; // End of the loop.
 		?>
-		
+
 	<?php
 		$tags = wp_get_post_tags($post->ID);
 		if ($tags) {
@@ -43,9 +43,9 @@ get_header();
 
 		<?php
 		if ( has_post_thumbnail() ) { ?>
-		<li><div class="relatedthumb"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail(); ?><?php the_title(); ?></a></div></li>
+		<li class="relatedthumb"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail(); ?><?php the_title(); ?></a></li>
 		<?php } else { ?>
-		<li><div class="relatedthumb"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><img src="<?php echo get_post_meta($post->ID, 'Image',true) ?>" width="196" height="110" alt="<?php the_title_attribute(); ?>" /><?php the_title(); ?></a></div></li>
+		<li class="relatedthumb"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><img src="<?php echo get_post_meta($post->ID, 'Image',true) ?>" width="196" height="110" alt="<?php the_title_attribute(); ?>" /><?php the_title(); ?></a></li>
 		<?php }
 		?>
 

@@ -1010,6 +1010,13 @@ img.custom-logo {
 
 }
 
+li.relatedthumb {
+	max-width: 25%;
+	border: 1px solid #ddd;
+	padding: 3px;
+	display: inline-block;
+}
+
 #primary article {
 	width: 80%;
 	margin: auto;
