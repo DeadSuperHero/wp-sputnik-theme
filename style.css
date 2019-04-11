@@ -1011,18 +1011,28 @@ img.custom-logo {
 }
 
 li.relatedthumb {
-	border: 1px solid #ddd;
-	padding: 3px;
-	width: 200px;
+	width: 245px;
 	height: auto;
 	display: inline-block;
 	vertical-align: top;
 	margin: 5px;
+	position: relative;
 }
 
 li.relatedthumb img {
 	object-fit: cover;
-	height: 125px;
+	height: 150px;
+}
+
+li.relatedthumb_title {
+	position: absolute;
+	padding: 5px;
+	font-weight: 600;
+	color: #fff;
+	background: #21212180;
+	width: 100%;
+	left: 0;
+	top: 0;
 }
 
 #primary article {
