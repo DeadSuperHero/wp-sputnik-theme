@@ -131,11 +131,6 @@ function sputnik_scripts() {
 add_action( 'wp_enqueue_scripts', 'sputnik_scripts' );
 
 
-/** Add thumbnails to posts **/
-add_theme_support( 'post-thumbnails' );
-set_post_thumbnail_size( 196, 110, true );
-
-
 /** Implement OEmbed support for video.deadsuperhero.com **/
 
 function dsh_video_embed() {
