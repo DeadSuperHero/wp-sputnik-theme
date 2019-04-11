@@ -1022,7 +1022,7 @@ li.relatedthumb {
 
 li.relatedthumb img {
 	object-fit: cover;
-	height: 175px;
+	height: 125px;
 }
 
 #primary article {
