@@ -75,7 +75,7 @@
 
 				$my_query = new wp_query($args);
 				if( $my_query->have_posts() ) {
-				echo '<div id="relatedposts"><h3>Related Posts</h3><ul>';
+				echo '<div id="relatedposts"><h3>Related Articles</h3><ul>';
 				while ($my_query->have_posts()) {
 				$my_query->the_post();
 				?>
