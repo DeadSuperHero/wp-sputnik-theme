@@ -1025,6 +1025,10 @@ li.relatedthumb img {
 	filter: brightness(40%);
 }
 
+li.relatedthumb img:hover {
+	filter: saturate(65%);
+}
+
 .relatedthumb_title {
 	position: absolute;
 	padding: 5px;
