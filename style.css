@@ -1024,7 +1024,7 @@ li.relatedthumb img {
 	height: 150px;
 }
 
-li.relatedthumb_title {
+.relatedthumb_title {
 	position: absolute;
 	padding: 5px;
 	font-weight: 600;
