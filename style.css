@@ -1017,6 +1017,10 @@ li.relatedthumb {
 	display: inline-block;
 }
 
+li.relatedthumb img {
+	object-fit: contain;
+}
+
 #primary article {
 	width: 80%;
 	margin: auto;
