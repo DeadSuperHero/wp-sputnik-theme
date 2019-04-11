@@ -1025,7 +1025,7 @@ li.relatedthumb img {
 	filter: brightness(40%);
 }
 
-li.relatedthumb:hover li.relatedthumb img{
+li.relatedthumb:hover > li.relatedthumb img{
 	filter: saturate(65%);
 }
 
