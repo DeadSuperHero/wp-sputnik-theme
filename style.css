@@ -248,6 +248,10 @@ h1.entry-title {
 
 .post-thumbnail img {
 	width: 100%;
+}
+
+.article_insert .post-thumbnail img {
+	width: 100%;
 	object-fit: cover;
 	height: 460px;
 }
