@@ -1016,12 +1016,17 @@ img.custom-logo {
 
 }
 
+#relatedposts ul {
+	padding: 0;
+	margin: 0;
+}
+
 li.relatedthumb {
 	width: 245px;
 	height: auto;
 	display: inline-block;
 	vertical-align: top;
-	margin: 5px;
+	margin: 0;
 	position: relative;
 }
 

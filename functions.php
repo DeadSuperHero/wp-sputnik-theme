@@ -130,7 +130,6 @@ function sputnik_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'sputnik_scripts' );
 
-
 /** Implement OEmbed support for video.deadsuperhero.com **/
 
 function dsh_video_embed() {

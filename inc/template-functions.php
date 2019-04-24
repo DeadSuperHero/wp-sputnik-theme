@@ -26,6 +26,14 @@ function sputnik_body_classes( $classes ) {
 }
 add_filter( 'body_class', 'sputnik_body_classes' );
 
+
+if (function_exists('get_wp_term_image'))
+{
+    $meta_image = get_wp_term_image($term_id);
+    //It will give category/term image url
+}
+
+
 /**
  * Add a pingback url auto-discovery header for single posts, pages, or attachments.
  */
