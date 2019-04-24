@@ -9,6 +9,7 @@
 
 ?>
 <div class="article_excerpt">
+	<p>If you're seeing this, this is the author template.</p>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
