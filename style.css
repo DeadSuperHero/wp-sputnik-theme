@@ -241,8 +241,17 @@ tptn_posts_daily .tptn_title, .tptn_posts .tptn_title {
 	text-decoration: none;
 }
 
+.tptn_posts_widget2 img.tptn_thumb {
+	width: 70px !important;
+	height: 70px !important;
+	object-fit: cover;
+	box-shadow: none !important;
+	padding: 0 !important;
+	border: none !important;
+}
+
 h1.entry-title {
-	font-weight: 300;
+	font-weight: 800;
 	margin: 0;
 }
 
