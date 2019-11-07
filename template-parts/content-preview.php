@@ -13,7 +13,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<div class="article_thumb">
-	<?php sputnik_post_thumbnail( 'medium' ); ?>
+	<?php the_post_thumbnail( 'medium' ); ?>
 	</div>
 
 	<div class="article_description">
