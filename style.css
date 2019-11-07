@@ -275,6 +275,10 @@ h1.entry-title {
 	font-weight: 800;
 }
 
+.site-info a:focus-within {
+	color: #50b392;
+}
+
 img.feneas-logo {
 	width: 145px;
 }
