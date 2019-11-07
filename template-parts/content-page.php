@@ -14,7 +14,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<?php sputnik_post_thumbnail(); ?>
+	<?php the_post_thumbnail( 'large' ); ?>
 
 	<div class="entry-content">
 		<?php
