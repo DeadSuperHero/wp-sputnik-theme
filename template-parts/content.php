@@ -33,7 +33,7 @@
 		sputnik_posted_by();
 		?>
 	</div><!-- .entry-meta -->
-	<?php sputnik_post_thumbnail(); ?>
+	<?php sputnik_post_thumbnail( 'large' ); ?>
 
 
 		<div class="entry-content">
@@ -82,7 +82,7 @@
 
 				<?php
 				if ( has_post_thumbnail() ) { ?>
-				<li class="relatedthumb"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail(); ?><div class="relatedthumb_title"><?php the_title(); ?></div></a></li>
+				<li class="relatedthumb"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail( 'medium' ); ?><div class="relatedthumb_title"><?php the_title(); ?></div></a></li>
 				<?php } else { ?>
 				<li class="relatedthumb"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><img src="<?php echo get_post_meta($post->ID, 'Image',true) ?>" alt="<?php the_title_attribute(); ?>" /><?php the_title(); ?></a></li>
 				<?php }

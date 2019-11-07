@@ -9,13 +9,13 @@
 
 ?>
 <div class="article_excerpt">
-	
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<div class="article_thumb">
-	<?php sputnik_post_thumbnail(); ?>
+	<?php sputnik_post_thumbnail( 'medium' ); ?>
 	</div>
-	
+
 	<div class="article_description">
 		<header class="entry-header">
 		<?php
@@ -27,17 +27,17 @@
 
 		if ( 'post' === get_post_type() ) :
 			?>
-			
-			
+
+
 			<div class="entry-meta">
 				<?php
-				sputnik_posted_by();				
+				sputnik_posted_by();
 				sputnik_posted_on();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-</div>	
+</div>
 
 
 </article><!-- #post-<?php the_ID(); ?> -->
