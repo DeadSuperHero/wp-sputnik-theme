@@ -266,23 +266,12 @@ h1.entry-title {
 }
 
 .site-info p {
-	display: inline-block;
-	vertical-align: top;
-	max-width: 35%;
 	font-weight: 400;
 	font-size: 14px;
-	margin-top: 0;
-	margin-left: 5px;
 }
 
 img.feneas-logo {
 	width: 145px;
-	display: inline-block;
-	vertical-align: top;
-	border-right: 2px solid
-	#fff;
-	margin-right: 5px;
-	padding-right: 10px;
 }
 
 /* Grouping content
@@ -1000,6 +989,31 @@ img.custom-logo {
 
 /* MEDIA QUERIES */
 
+/* Desktop-Specific */
+
+@media only screen and (min-width: 600px) {
+
+	img.feneas-logo {
+		display: inline-block;
+		vertical-align: top;
+		border-right: 2px solid
+		#fff;
+		margin-right: 5px;
+		padding-right: 10px;
+	}
+
+	.site-info p {
+		display: inline-block;
+		vertical-align: top;
+		max-width: 35%;
+		font-weight: 400;
+		font-size: 14px;
+		margin-top: 0;
+		margin-left: 5px;
+	}
+
+}
+
 
 /* For Tablet screens */
 @media only screen and (max-width: 1430px) {
@@ -1183,6 +1197,24 @@ li.relatedthumb:hover > li.relatedthumb img:hover{
 	.comment-content {
 		width: 90%;
 	}
+
+	img.feneas-logo {
+		width: 145px;
+		display: block;
+		border-right: none;
+		padding-right: 10px;
+		margin: auto;
+	}
+
+	.site-info p {
+		display: block;
+		font-weight: 400;
+		font-size: 14px;
+		margin-top: 0;
+		margin-left: 5px;
+	}
+
+
 }
 
 
