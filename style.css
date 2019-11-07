@@ -1144,6 +1144,11 @@ li.relatedthumb:hover > li.relatedthumb img:hover{
       display: inline-block;
   }
 
+	.article_thumb img {
+		width: 70px;
+		height: 70px;
+	}
+
   .article_grid .post-thumbnail img {
       width: 70px;
       display: inline-block;
