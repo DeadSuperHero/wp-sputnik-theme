@@ -265,6 +265,15 @@ h1.entry-title {
 	height: 460px;
 }
 
+img.feneas-logo {
+	width: 145px;
+	display: inline-block;
+	vertical-align: top;
+	border-right: 2px solid
+	#fff;
+	margin-right: 5px;
+}
+
 /* Grouping content
 	 ========================================================================== */
 
