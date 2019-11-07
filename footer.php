@@ -15,16 +15,9 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'sputnik' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'sputnik' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'sputnik' ), 'sputnik', '<a href="https://deadsuperhero.com">Sean Tilley</a>' );
+				printf( esc_html__( 'We Distribute is proudly part of', 'sputnik', 'a non-profit organization dedicated to decentralized technologies and federated communication systems. We are working together to provide knowledge and services to help make the fediverse grow!'  ), 'sputnik', '<a href="https://feneas.org">Federated Networks Association ry</a>' );
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
