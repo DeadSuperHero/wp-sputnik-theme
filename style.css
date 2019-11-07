@@ -270,6 +270,11 @@ h1.entry-title {
 	font-size: 14px;
 }
 
+.site-info a {
+	color: #ffd041;
+	font-weight: 800;
+}
+
 img.feneas-logo {
 	width: 145px;
 }
@@ -1479,11 +1484,10 @@ li.recentcomments.recent-comment img.avatar {
 }
 
 .site-footer {
-	background: #535353e6;
+	background: #151515e6;
 	padding: 30px;
-	border-top: 1px solid #5a5a5a;
-	color:#fff;
-	font-weight: 700;
+	border-top: 10px double #eaeaea;
+	color: #fff;
 }
 
 ul.cwp-ul {
