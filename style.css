@@ -265,6 +265,16 @@ h1.entry-title {
 	height: 460px;
 }
 
+.site-info p {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 35%;
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 0;
+	margin-left: 5px;
+}
+
 img.feneas-logo {
 	width: 145px;
 	display: inline-block;
@@ -272,6 +282,7 @@ img.feneas-logo {
 	border-right: 2px solid
 	#fff;
 	margin-right: 5px;
+	padding-right: 10px;
 }
 
 /* Grouping content
@@ -1432,10 +1443,10 @@ li.recentcomments.recent-comment img.avatar {
 }
 
 .site-footer {
-	background: #7b7b7be6;
+	background: #535353e6;
 	padding: 30px;
 	border-top: 1px solid #5a5a5a;
-	color: #fff;
+	color:#fff;
 	font-weight: 700;
 }
 
