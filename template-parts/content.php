@@ -37,6 +37,8 @@
 		<?php the_post_thumbnail( 'large' ); ?>
 	</div>
 
+	<?php sputnik_entry_footer(); ?>
+
 
 		<div class="entry-content">
 			<?php
@@ -99,8 +101,6 @@
 				wp_reset_query();
 				?>
 
-
-			<?php sputnik_entry_footer(); ?>
 		</footer><!-- .entry-footer -->
 
 	<?php

@@ -35,6 +35,20 @@ if ( ! function_exists( 'sputnik_posted_on' ) ) :
 	}
 endif;
 
+if ( ! function_exists( 'sputnik_post_tags' ) ) :
+
+	function sputnik_post_tags() {
+		if ( 'post' === get_post_type() ) {
+			/* translators: used between list items, there is a space after the comma */
+			$categories_list = get_the_category_list( esc_html__( ' ', 'sputnik' ) );
+			if ( $categories_list ) {
+				/* translators: 1: list of categories. */
+				printf( '<span class="cat-links">' . esc_html__('%s', 'sputnik' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+			}
+		}
+	}
+endif;
+
 if ( ! function_exists( 'sputnik_posted_by' ) ) :
 	/**
 	 * Prints HTML with meta information for the current author.
