@@ -33,7 +33,9 @@
 		sputnik_posted_by();
 		?>
 	</div><!-- .entry-meta -->
-	<?php the_post_thumbnail( 'large' ); ?>
+	<div class="featured-thumbnail">
+		<?php the_post_thumbnail( 'large' ); ?>
+	</div>
 
 
 		<div class="entry-content">

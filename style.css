@@ -1406,6 +1406,10 @@ li.relatedthumb:hover > li.relatedthumb img:hover{
 	margin: 0 0 1.5em;
 }
 
+.featured-thumbnail img {
+	width: 100%;
+}
+
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
