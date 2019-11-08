@@ -288,7 +288,7 @@ h1.entry-title {
 	font-weight: 800;
 }
 
-.site-info a:focus-within {
+.site-info a:focus-within, .site-info a:visited {
 	color: #50b392;
 }
 
