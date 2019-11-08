@@ -92,10 +92,11 @@ span.posted-on {
 }
 
 .site-branding {
-    display: inline-block;
-    height: inherit;
-    vertical-align: top;
-    margin: 5px 0px 0px 5px;
+	display: inline-block;
+	height: inherit;
+	vertical-align: top;
+	margin: 2px 0px 0px 5px;
+	width: 200px;
 }
 
 h1.site-title {
@@ -935,11 +936,6 @@ ul.sub-menu img._mi _before._image {
 	width: 25px;
 }
 
-
-img.custom-logo {
-	width: 50px;
-}
-
 .main-navigation {
 	clear: both;
 	display: inline-block;
@@ -986,7 +982,7 @@ img.custom-logo {
 	float: left;
 	position: relative;
 	margin: 0;
-	padding: 7px;
+	padding: 0px 5px 2px 15px;
 }
 
 .main-navigation li:active, .main-navigation li:focus {
