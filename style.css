@@ -227,6 +227,7 @@ span.cat-links a {
 	border-radius: 4px;
 	text-decoration: none;
 	color: #fff;
+	margin-right: 4px;
 }
 
 .article_excerpt time.entry-date.published {
