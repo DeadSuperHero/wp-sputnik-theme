@@ -1182,7 +1182,7 @@ li.relatedthumb:hover > li.relatedthumb img:hover{
   }
 
   .article_thumb {
-      max-height: 300px;
+      max-height: 200px;
       max-width: 100%;
       display: inline-block;
   }
