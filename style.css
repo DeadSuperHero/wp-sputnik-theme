@@ -163,10 +163,25 @@ h1 {
 .article_thumb {
 	max-height: 300px;
 	max-width: 100%;
+	overflow: hidden;
+	border-radius: 5px;
+	transition: box-shadow 0.2s ease-out;
+}
+
+.article_thumb:hover {
+	box-shadow: 0px 0px 10px #6d6d6d;
+	transition: box-shadow 0.2s ease-in;
+}
+
+.article_excerpt .article_thumb img {
+	transform: scale(1.0);
+	transition: transform 0.5s ease;
 }
 
 .article_excerpt:hover .article_thumb img {
 	box-shadow: 0px 0px 10px #6d6d6d;
+	transform: scale(1.1);
+	transition: transform 0.5s ease;
 }
 
 .article_excerpt:hover header.entry-header h2.entry-title a {
@@ -178,8 +193,6 @@ h1 {
 	height: 200px;
 	width: 100%;
 	object-fit: cover;
-	border-radius: 5px;
-	transition: box-shadow 0.2s ease-in;
 }
 
 .author.vcard .url {
@@ -1063,7 +1076,6 @@ img.custom-logo {
     height: 140px;
     object-fit: cover;
     border-radius: 5px;
-    transition: box-shadow 0.2s ease-in;
   }
 
 }
