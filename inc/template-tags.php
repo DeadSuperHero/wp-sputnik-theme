@@ -98,7 +98,9 @@ if ( ! function_exists( 'sputnik_post_thumbnail' ) ) :
 			?>
 
 			<div class="post-thumbnail">
-				<?php the_post_thumbnail(); ?>
+				<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
+					<?php the_post_thumbnail(); ?>
+				</a>
 			</div><!-- .post-thumbnail -->
 
 		<?php else : ?>
