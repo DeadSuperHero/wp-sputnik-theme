@@ -13,7 +13,10 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<div class="article_thumb">
-	<?php the_post_thumbnail( 'medium' ); ?>
+		<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
+			<?php
+			the_post_thumbnail( 'medium' ); ?>
+		</a>
 	</div>
 
 	<div class="article_description">
