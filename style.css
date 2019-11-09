@@ -162,7 +162,7 @@ h1 {
 }
 
 .article_thumb {
-	max-height: 300px;
+	max-height: 200px;
 	max-width: 100%;
 	overflow: hidden;
 	border-radius: 5px;
