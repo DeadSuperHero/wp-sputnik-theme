@@ -94,7 +94,7 @@ span.posted-on {
 .site-branding {
 	display: inline-block;
 	height: inherit;
-	vertical-align: top;
+	vertical-align: bottom;
 	margin: 2px 0px 0px 5px;
 	width: 200px;
 }
@@ -998,6 +998,7 @@ ul.sub-menu img._mi _before._image {
 	font-weight: 800;
 	color: #fff;
 	min-height: 30px;
+	vertical-align: bottom;
 }
 
 .main-navigation a:hover {
