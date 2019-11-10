@@ -87,6 +87,14 @@ span.byline {
 	float: left;
 }
 
+span.byline img {
+	height: auto;
+	width: 28px;
+	border-radius: 1em;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
 span.posted-on {
 	float: right;
 }
