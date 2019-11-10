@@ -97,6 +97,12 @@ span.byline img {
 
 span.posted-on {
 	float: right;
+	color: #8c8c8c;
+}
+
+span.posted-on i {
+	margin-right: 4px;
+	font-size: 20px;
 }
 
 .site-branding {
@@ -242,7 +248,6 @@ span.cat-links a {
 .article_excerpt time.entry-date.published {
 	float: right;
 	text-transform: uppercase;
-	color: #ccc;
 	font-size: 14px;
 }
 
