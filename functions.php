@@ -171,11 +171,8 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 /** Load ForkAwesome **/
 function wpb_load_fa() {
-
-wp_enqueue_style( 'wpb-fa', get_stylesheet_directory_uri() . '/fonts/css/fork-awesome.css' );
-
+	wp_enqueue_style( 'wpb-fa', get_stylesheet_directory_uri() . '/fonts/css/fork-awesome.css' );
 }
-
 add_action( 'wp_enqueue_scripts', 'wpb_load_fa' );
 
 /** Prefix Category Title **/
