@@ -76,7 +76,7 @@ if ( ! function_exists( 'sputnik_entry_footer' ) ) :
 			$tags_list = get_the_tag_list( esc_html__( ' ', 'sputnik' ) );
 			if ( $tags_list ) {
 				/* translators: 1: list of categories. */
-				printf( '<span class="cat-links">' . esc_html__('%s', 'sputnik' ) . '</span>', $tags_list ); // WPCS: XSS OK.
+				printf( '<span class="cat-links">' . '<i class="fa fa-tags" aria-hidden="true"></i>' . esc_html__('%s', 'sputnik' ) . '</span>', $tags_list ); // WPCS: XSS OK.
 			}
 		}
 	}
