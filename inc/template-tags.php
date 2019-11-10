@@ -27,7 +27,7 @@ if ( ! function_exists( 'sputnik_posted_on' ) ) :
 		$posted_on = sprintf(
 			/* translators: %s: post date. */
 			esc_html_x( '%s', 'post date', 'sputnik' ),
-			'<span>' . <i class="fa fa-clock-o" aria-hidden="true"></i> . $time_string . '</span>'
+			'<span>' . $time_string . '</span>'
 		);
 
 		echo '<span class="posted-on">' . $posted_on . '</span>'; // WPCS: XSS OK.
