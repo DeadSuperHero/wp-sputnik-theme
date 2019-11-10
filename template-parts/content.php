@@ -26,6 +26,9 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
+	<div class="featured-thumbnail">
+		<?php the_post_thumbnail( 'large' ); ?>
+	</div>
 
 	<div class="entry-meta">
 		<?php
@@ -33,10 +36,6 @@
 		sputnik_posted_on();
 		?>
 	</div><!-- .entry-meta -->
-	<div class="featured-thumbnail">
-		<?php the_post_thumbnail( 'large' ); ?>
-	</div>
-
 	<?php sputnik_entry_footer(); ?>
 
 
