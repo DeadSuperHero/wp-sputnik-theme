@@ -84,11 +84,11 @@ header.entry-meta {
 }
 
 span.byline {
-	float: right;
+	float: left;
 }
 
 span.posted-on {
-	float: left;
+	float: right;
 }
 
 .site-branding {
