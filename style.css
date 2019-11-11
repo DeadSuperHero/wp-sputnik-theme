@@ -96,7 +96,7 @@ span.byline img {
 }
 
 span.posted-on {
-	float: right;
+	float: left;
 	color: #8c8c8c;
 }
 
@@ -171,8 +171,8 @@ h1 {
   vertical-align: top;
   max-height: 500px;
   margin: 0 2% 5%;
-  flex: 1 0 25%;
-  max-width: 380px;
+  flex: 1 0 28%;
+  max-width: 500px;
 }
 
 .article_thumb {
@@ -1126,7 +1126,7 @@ li.relatedthumb:hover > li.relatedthumb img:hover{
 }
 
 #primary article {
-	width: 80%;
+	width: 98%;
 	margin: auto;
 }
 
