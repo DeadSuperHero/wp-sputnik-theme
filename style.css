@@ -96,8 +96,15 @@ span.byline img {
 }
 
 span.posted-on {
-	float: left;
 	color: #8c8c8c;
+}
+
+.article_grid span.posted-on {
+	float: left;
+}
+
+.article_insert span.posted-on {
+	float: right;
 }
 
 span.posted-on i {
