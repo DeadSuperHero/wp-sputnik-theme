@@ -1460,7 +1460,11 @@ li.relatedthumb:hover > li.relatedthumb img:hover{
 ## Comments
 --------------------------------------------------------------*/
 .comment-body {
-	margin-bottom: 1em;
+	border: 1px solid #9f9f9f;
+	background: #fff;
+	margin: 12px !important;
+	border-radius: 5px;
+	padding: 10px;
 }
 
 .comment-content a {
@@ -1468,12 +1472,6 @@ li.relatedthumb:hover > li.relatedthumb img:hover{
 }
 
 .comment-content {
-	border: 1px solid #afafaf;
-	border-radius: 3px;
-	display: inline-block;
-	padding: 0px 10px 0px 9px;
-	word-wrap: break-word;
-	background: #fff;
 }
 
 .comment-content img.emoji {
