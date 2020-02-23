@@ -37,6 +37,10 @@
 				sputnik_posted_on();
 				?>
 
+				<span class="category-list">
+					<?php sputnik_category_list(); ?>
+				</span>
+
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->

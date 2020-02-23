@@ -36,6 +36,10 @@
 		sputnik_posted_on();
 		?>
 
+		<span class="category-list">
+			<?php sputnik_category_list(); ?>
+		</span>
+
 	</div><!-- .entry-meta -->
 	<?php sputnik_entry_footer(); ?>
 

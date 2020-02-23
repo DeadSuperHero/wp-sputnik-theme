@@ -35,6 +35,21 @@ if ( ! function_exists( 'sputnik_posted_on' ) ) :
 	}
 endif;
 
+
+if ( ! function_ exists( 'sputnik_category_list') ):
+
+	function sputnik_category_list() {
+	if ( 'post' === get_post_type() ) {
+		$categories_list = get_the_category_list( esc_html__( ', ', 'sputnik' ) );
+		$category_icon = get_term_meta('fa-icon')
+		if ( $categories_list ) {
+		 /* translators: 1: list of categories. */
+		 printf( '<span class="cat-links">' . '<i class="fa <?php echo $category_icon ?>" aria-hidden="true"></i>' . esc_html__( '%1$s', 'sputnik' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+	 }
+ }
+}
+endif;
+
 if ( ! function_exists( 'sputnik_post_tags' ) ) :
 
 	function sputnik_post_tags() {
