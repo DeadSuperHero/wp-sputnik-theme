@@ -26,9 +26,6 @@ get_header();
 				?>
 				<header>
 					<h1 class="page-title screen-reader-text">
-						<?php if(get_term_meta('fa-icon') != ""): ?>
-							<i class="fa <?php echo get_term_meta('fa-icon'); ?>"></i>
-						<?php endif; ?>
 						<?php single_post_title(); ?>
 					</h1>
 
