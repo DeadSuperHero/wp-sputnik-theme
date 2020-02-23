@@ -13,6 +13,7 @@
  */
 
 get_header();
+
 ?>
 
 	<div id="primary" class="content-area">
@@ -24,7 +25,13 @@ get_header();
 			if ( is_home() && ! is_front_page() ) :
 				?>
 				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+					<h1 class="page-title screen-reader-text">
+						<?php if(get_term_meta('fa-icon') != ""): ?>
+							<i class="fa <?php echo get_term_meta('fa-icon'); ?>"></i>
+						<?php endif; ?>
+						<?php single_post_title(); ?>
+					</h1>
+
 				</header>
 				<?php
 			endif;
@@ -47,11 +54,11 @@ get_header();
 		endif;
 		?>
 			</div>
-			
+
 			<?php
 			the_posts_navigation();
 			?>
-			
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
