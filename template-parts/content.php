@@ -35,7 +35,6 @@
 		sputnik_posted_by();
 		sputnik_posted_on();
 		?>
-
 	</div><!-- .entry-meta -->
 	<?php sputnik_entry_footer(); ?>
 
