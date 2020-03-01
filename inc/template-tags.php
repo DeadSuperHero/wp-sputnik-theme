@@ -97,23 +97,17 @@ if ( ! function_exists( 'sputnik_post_thumbnail' ) ) :
 		if ( is_singular() ) :
 			?>
 
-			<div class="post-thumbnail">
-				<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
-					<?php the_post_thumbnail(); ?>
-				</a>
+			<?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'large'); ?>
+			<div class="post-thumbnail" style="background: url(<?php echo $featured_img_url ?>) !important; background-size: cover !important; background-position: center !important; min-height: 23em;">
+				<?php sputnik_post_tags(); ?>
 			</div><!-- .post-thumbnail -->
 
 		<?php else : ?>
 
-		<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
-			<?php
-			the_post_thumbnail( 'post-thumbnail', array(
-				'alt' => the_title_attribute( array(
-					'echo' => false,
-				) ),
-			) );
-			?>
-		</a>
+				<?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'medium'); ?>
+				<div class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1" style="background: url(<?php echo $featured_img_url ?>) !important; background-size: cover !important; background-position: center !important; min-height: 23em;">
+					<?php sputnik_post_tags(); ?>
+				</div><!-- .post-thumbnail -->
 
 		<?php
 		endif; // End is_singular().

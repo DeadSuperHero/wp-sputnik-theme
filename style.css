@@ -188,6 +188,17 @@ h1 {
 	overflow: hidden;
 	border-radius: 5px;
 	transition: box-shadow 0.2s ease-out;
+	position: relative;
+}
+
+.post-thumbnail .article_type a {
+	background: #ddd;
+}
+
+.post-thumbnail span.cat-links {
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
 }
 
 .article_thumb:hover {
