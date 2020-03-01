@@ -199,6 +199,8 @@ h1 {
 	position: absolute;
 	bottom: 5px;
 	right: 0px;
+	font-size: 14px;
+	font-weight: 800;
 }
 
 .article_thumb:hover {

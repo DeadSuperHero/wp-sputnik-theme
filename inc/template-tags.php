@@ -41,6 +41,7 @@ if ( ! function_exists( 'sputnik_post_tags' ) ) :
 		if ( 'post' === get_post_type() ) {
 			/* translators: used between list items, there is a space after the comma */
 			$categories_list = get_the_category_list( esc_html__( ' ', 'sputnik' ) );
+			$color = get_term_meta($category[0]->cat_ID, 'color', true);
 			if ( $categories_list ) {
 				/* translators: 1: list of categories. */
 				printf( '<span class="cat-links">' . esc_html__('%s', 'sputnik' ) . '</span>', $categories_list ); // WPCS: XSS OK.
@@ -98,14 +99,14 @@ if ( ! function_exists( 'sputnik_post_thumbnail' ) ) :
 			?>
 
 			<?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'large'); ?>
-			<div class="post-thumbnail" style="background: url(<?php echo $featured_img_url ?>) !important; background-size: cover !important; background-position: center !important; min-height: 23em;">
+			<div class="post-thumbnail" style="background: url(<?php echo $featured_img_url ?>) !important; background-size: cover !important; background-position: center !important; min-height: 13em;">
 				<?php sputnik_post_tags(); ?>
 			</div><!-- .post-thumbnail -->
 
 		<?php else : ?>
 
 				<?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'medium'); ?>
-				<div class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1" style="background: url(<?php echo $featured_img_url ?>) !important; background-size: cover !important; background-position: center !important; min-height: 23em;">
+				<div class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1" style="background: url(<?php echo $featured_img_url ?>) !important; background-size: cover !important; background-position: center !important; min-height: 13em;">
 					<?php sputnik_post_tags(); ?>
 				</div><!-- .post-thumbnail -->
 
