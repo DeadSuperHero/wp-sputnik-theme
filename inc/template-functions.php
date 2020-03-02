@@ -43,3 +43,9 @@ function sputnik_pingback_header() {
 	}
 }
 add_action( 'wp_head', 'sputnik_pingback_header' );
+
+
+function register_mobile_menu() {
+  register_nav_menu('mobile-menu',__( 'Mobile Menu' ));
+}
+add_action( 'init', 'register_mobile_menu' );

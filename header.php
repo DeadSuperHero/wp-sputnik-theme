@@ -44,6 +44,21 @@
 	<div id="search_box">
 		<?php get_search_form(); ?>
 	</div>
+	
+	<!-- #mobile-menu -->
+	<input type="checkbox" class="mobile-nav-check" id="mobile-nav-check" />
+	<nav id="mobile-nav" class="navigation">
+		<div id="mobile_search_box">
+			<?php get_search_form(); ?>
+		</div>
+		<div class="mobile-list">
+			<?php wp_nav_menu( array( 'theme_location' => 'mobile-menu' ) ); ?>
+		</div>
+	</nav>
+
+	<label for ="mobile-nav-check" class="toggle-menu">
+		☰
+	</label>
 
 	</header><!-- #masthead -->
 
