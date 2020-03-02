@@ -758,6 +758,10 @@ html {
 	box-sizing: border-box;
 }
 
+.mobile-nav-check {
+	display: none;
+}
+
 *,
 *:before,
 *:after {
@@ -1257,11 +1261,6 @@ li.relatedthumb:hover > li.relatedthumb img:hover{
 		 color: white;
 		 font-size: 32px;
 		 cursor: pointer;
-		}
-
-
-		.mobile-nav-check {
-			display: none;
 		}
 
 	 #mobile-nav {
