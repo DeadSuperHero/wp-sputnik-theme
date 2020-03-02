@@ -1302,6 +1302,11 @@ li.relatedthumb:hover > li.relatedthumb img:hover{
     padding: 0px 0px 10px 15px;
 	 }
 
+	 #mobile-nav ul.sub-menu {
+		 margin-left: 10px;
+		 background: none;
+	 }
+
 
   #primary {
       max-width: 100%;
