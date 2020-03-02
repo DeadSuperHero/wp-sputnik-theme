@@ -1603,6 +1603,63 @@ li.relatedthumb:hover > li.relatedthumb img:hover{
 }
 
 /*--------------------------------------------------------------
+## Authors
+--------------------------------------------------------------*/
+
+#author-articles {
+	background: #fff;
+}
+
+.author-photo {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.author-photo img {
+	border-radius: 3px;
+}
+
+
+.author-description {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	margin-left: 10px;
+}
+
+.author-thumb, .author-article-summary {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.author-thumb img {
+	border-radius: 3px;
+}
+
+h3.article-title {
+	margin: 0;
+	padding: 0;
+}
+
+
+.author-article-summary {
+	width: 80%;
+	margin-left: 10px;
+}
+
+.article-desc {
+	vertical-align: middle;
+	padding: 0;
+	margin: 0;
+	font-size: 13px;
+}
+
+.article-desc p {
+	margin: 0;
+	padding: 0;
+}
+
+/*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
 .comment-body {
