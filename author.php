@@ -21,8 +21,12 @@ $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : g
     <div class="author-photo">
     <?php echo get_avatar( $curauth->user_email , '200 '); ?>
     </div>
-    <div class="author-description"><?php echo $curauth->user_description; ?></div>
-    <p><strong>Website:</strong> <a href="<?php echo $curauth->user_url; ?>"><?php echo $curauth->user_url; ?></a><br />
+    <div class="author-description"><?php echo $curauth->user_description; ?>
+
+      <div class="author-links">
+        <a class="homepage" href="<?php echo $curauth->user_url; ?>"><i class="fa fa-globe" aria-hidden="true"></i></a><br />
+      </div>
+    </div>
 </div>
 
 <div id="author-articles">
