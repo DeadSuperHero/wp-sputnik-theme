@@ -34,6 +34,8 @@
 				sputnik_posted_on();
 				?>
 
+				<div class="mobile-tags"><?php sputnik_post_tags(); ?></div>
+
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->

@@ -106,7 +106,7 @@ if ( ! function_exists( 'sputnik_post_thumbnail' ) ) :
 		<?php else : ?>
 
 				<?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'medium'); ?>
-				<div class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1" style="background: url(<?php echo $featured_img_url ?>) !important; background-size: cover !important; background-position: center !important; min-height: 13em;">
+				<div class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1" style="background: url(<?php echo $featured_img_url ?>) !important; background-size: cover !important; background-position: center !important;">
 					<?php sputnik_post_tags(); ?>
 				</div><!-- .post-thumbnail -->
 

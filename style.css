@@ -266,8 +266,8 @@ span.cat-links a {
 }
 
 .article_excerpt time.entry-date.published {
-	float: right;
 	text-transform: uppercase;
+	display: inline-block;
 	font-size: 14px;
 }
 
@@ -1065,6 +1065,14 @@ ul.sub-menu img._mi _before._image {
 		margin-left: 5px;
 	}
 
+	.post-thumbnail {
+		min-height: 13em;
+	}
+
+	.mobile-tags {
+		display: none;
+	}
+
 }
 
 
@@ -1177,6 +1185,21 @@ li.relatedthumb:hover > li.relatedthumb img:hover{
 
 	 .main-navigation ul.sub-menu span {
 		 display: inline-block;
+	 }
+
+	 .post-thumbnail {
+	 	min-height: 70px;
+	 	min-width: 70px;
+	 }
+
+	 .post-thumbnail span.cat-links {
+		 display: none;
+	 }
+
+	 .mobile-tags {
+		 font-size: 12px;
+		 display: block;
+		 float: right;
 	 }
 
   #primary {
