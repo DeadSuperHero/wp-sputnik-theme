@@ -31,21 +31,22 @@ $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : g
 
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<div class="author-entry">
+  <div class="author-thumb">
+    <?php the_post_thumbnail('thumb'); ?>
+  </div>
 
-<div class="author-thumb">
-  <?php the_post_thumbnail('thumb'); ?>
-</div>
+  <div class="author-article-summary">
 
-<div class="author-article-summary">
-
-<h3 class="article-title">
-  <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link: <?php the_title(); ?>">
-    <?php the_title(); ?></a>
-</h3>
-<div class="article-desc">
-  <?php the_excerpt(); ?>
-</div>
-<p class="posted-on">Posted on: <?php the_time('d M Y'); ?></p>
+  <h3 class="article-title">
+    <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link: <?php the_title(); ?>">
+      <?php the_title(); ?></a>
+  </h3>
+    <div class="article-desc">
+      <div class="posted-on"><?php the_time('d M Y'); ?></div>
+      <?php the_excerpt(); ?>
+    </div>
+  </div>
 </div>
 <?php endwhile;
 

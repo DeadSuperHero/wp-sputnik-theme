@@ -1627,6 +1627,13 @@ li.relatedthumb:hover > li.relatedthumb img:hover{
 	margin-left: 10px;
 }
 
+.author-entry {
+	margin: 10px;
+	border: 1px solid #ddd;
+	padding: 10px;
+	border-radius: 3px;
+}
+
 .author-thumb, .author-article-summary {
 	display: inline-block;
 	vertical-align: top;
