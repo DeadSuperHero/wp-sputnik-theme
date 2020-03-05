@@ -191,6 +191,27 @@ h1 {
 	position: relative;
 }
 
+.list_thumb {
+	display: inline-block;
+	vertical-align: t	op;
+}
+
+.list_thumb img {
+	border-radius: 3px;
+}
+
+.list_description {
+	display: inline-block;
+	width: 70%;
+	margin-left: 10px;
+	vertical-align: top;
+}
+
+.list_description	h2 {
+	margin: 0;
+	padding: 0;
+}
+
 .post-thumbnail .article_type a {
 	background: #ddd;
 }

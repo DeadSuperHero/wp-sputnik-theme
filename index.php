@@ -19,7 +19,7 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 			<div class="article_grid">
-		<?php $i = 1;
+		<?php query_posts('posts_per_page=6');
 		if ( have_posts() ) :
 
 			if ( is_home() && ! is_front_page() ) :
@@ -33,16 +33,16 @@ get_header();
 				<?php
 			endif;
 			/* Start the Loop */
-			while ( have_posts() && $i < 7):
+			while ( have_posts()):
 				the_post();
 
 				/*
 				 * Include the Post-Type-specific template for the content.
 				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
+				 * called content-___.php (wget_template_part( 'template-parts/content', 'preview');here ___ is the Post Type name) and that will be used instead.
 				 */
 				get_template_part( 'template-parts/content', 'preview');
-			$i++; endwhile;
+			endwhile;
 
 		else :
 
@@ -50,10 +50,11 @@ get_header();
 
 		endif;
 		?>
-			</div>
+	</div>
 
-			<div class="article_list">
-			</div>
+			<?php
+			get_template_part( 'template-parts/content', 'list');
+			?>
 
 			<?php
 			the_posts_navigation();

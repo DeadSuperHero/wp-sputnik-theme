@@ -8,6 +8,7 @@
  */
 
 ?>
+
 <div class="article_excerpt">
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
