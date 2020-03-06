@@ -19,7 +19,7 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 			<div class="article_grid">
-		<?php query_posts('posts_per_page=6');
+		<?php
 		if ( have_posts() ) :
 
 			if ( is_home() && ! is_front_page() ) :
@@ -33,7 +33,7 @@ get_header();
 				<?php
 			endif;
 			/* Start the Loop */
-			while ( have_posts()):
+			$i = 1; while ( have_posts() && $i < 7):
 				the_post();
 
 				/*
@@ -42,7 +42,7 @@ get_header();
 				 * called content-___.php (wget_template_part( 'template-parts/content', 'preview');here ___ is the Post Type name) and that will be used instead.
 				 */
 				get_template_part( 'template-parts/content', 'preview');
-			endwhile;
+			$i++; endwhile;
 
 		else :
 

@@ -10,7 +10,7 @@
 ?>
 
 <div class="article_list">
-  <?php query_posts('offset=6&posts_per_page=5'); if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+  <?php query_posts('offset=6'); if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <div class="list_excerpt">
 
     	<div class="list_thumb">
