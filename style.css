@@ -290,6 +290,10 @@ h1 {
 	font-size: 15px;
 }
 
+a.platform-tag:visited {
+	color: #ddd;
+}
+
 .article_description {
 	position: relative;
 	margin: 0px;
