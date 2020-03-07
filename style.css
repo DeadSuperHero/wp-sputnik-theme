@@ -277,6 +277,19 @@ h1 {
 	font-weight: 300;
 }
 
+.platform-tag {
+	border: 2px solid #ddd;
+	padding: 2px 4px 0px 3px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: 600;
+	color: #ddd;
+	position: absolute;
+	bottom: 10px;
+	left: 5px;
+	font-size: 15px;
+}
+
 .article_description {
 	position: relative;
 	margin: 0px;
@@ -1643,6 +1656,10 @@ li.relatedthumb:hover > li.relatedthumb img:hover{
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+.featured-thumbnail {
+	position: relative;
 }
 
 .featured-thumbnail img {

@@ -83,6 +83,17 @@ if ( ! function_exists( 'sputnik_entry_footer' ) ) :
 	}
 endif;
 
+if ( ! function_exists ('sputnik_platform_tag') ) :
+	function sputnik_platform_tag() {
+
+		$platform = get_field('platform');
+		$link =  get_category_link( get_field( 'platform' ) );
+		if( $platform ) {
+			printf('<a class="platform-tag" href="' . esc_url($link) . '">' . esc_html__('%s', 'sputnik' ) . '</a>', $platform->name);
+		}
+	}
+endif;
+
 if ( ! function_exists( 'sputnik_post_thumbnail' ) ) :
 	/**
 	 * Displays an optional post thumbnail.
@@ -100,7 +111,7 @@ if ( ! function_exists( 'sputnik_post_thumbnail' ) ) :
 
 			<?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'large'); ?>
 			<div class="post-thumbnail" style="background: url(<?php echo $featured_img_url ?>) !important; background-size: cover !important; background-position: center !important; min-height: 13em;">
-				<?php sputnik_post_tags(); ?>
+				<?php sputnik_platform_tag(); ?>
 			</div><!-- .post-thumbnail -->
 
 		<?php else : ?>

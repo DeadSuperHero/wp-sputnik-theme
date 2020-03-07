@@ -28,6 +28,7 @@
 
 	<div class="featured-thumbnail">
 		<?php the_post_thumbnail( 'large' ); ?>
+		<?php sputnik_platform_tag(); ?>
 	</div>
 
 	<div class="entry-meta">
@@ -35,9 +36,9 @@
 		sputnik_posted_by();
 		sputnik_posted_on();
 		?>
+
 	</div><!-- .entry-meta -->
 	<?php sputnik_entry_footer(); ?>
-
 
 		<div class="entry-content">
 			<?php
