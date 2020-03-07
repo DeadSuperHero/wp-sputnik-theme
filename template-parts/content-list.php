@@ -9,8 +9,6 @@
 
 ?>
 
-<div class="article_list">
-  <?php query_posts('offset=6'); if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <div class="list_excerpt">
 
     	<div class="list_thumb">
@@ -42,7 +40,3 @@
     	</header><!-- .entry-header -->
     </div>
   </div>
-
-<?php endwhile; ?>
-<?php endif; ?>
-</div>

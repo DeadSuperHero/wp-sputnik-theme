@@ -18,7 +18,7 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-			<div class="article_grid">
+			<div class="index_container">
 		<?php
 		if ( have_posts() ) :
 
@@ -31,34 +31,39 @@ get_header();
 
 				</header>
 				<?php
-			endif;
-			/* Start the Loop */
-			$i = 1; while ( have_posts() && $i < 7):
+			endif; ?>
+
+	<div class="article_grid">
+			<?php $i = 1; while ( have_posts() && $i < 7):
+							/* Start the Loop */
 				the_post();
+			         get_template_part( 'template-parts/content', 'grid');
 
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (wget_template_part( 'template-parts/content', 'preview');here ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', 'preview');
-			$i++; endwhile;
 
-		else :
+			$i++; endwhile; ?>
+		</div>
+
+			<div class="article_list">
+			<?php $i = 1; while ( have_posts() && $i < 5) :
+				// output posts 7 + of main query
+				the_post();
+				get_template_part( 'template-parts/content', 'list');
+
+				$i++; endwhile;
+				?>
+			</div>
+
+		<?php else :
 
 			get_template_part( 'template-parts/content', 'none' );
 
 		endif;
 		?>
-	</div>
-
-			<?php
-			get_template_part( 'template-parts/content', 'list');
-			?>
 
 			<?php
 			the_posts_navigation();
 			?>
+		</div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
@@ -66,3 +71,4 @@ get_header();
 <?php
 get_sidebar();
 get_footer();
+?>
