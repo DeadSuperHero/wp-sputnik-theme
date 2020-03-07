@@ -12,41 +12,45 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-			
+
 			<header class="page-header">
 				<?php
 				the_archive_title( '<h1 class="page-title">', '</h1>' );
 				the_archive_description( '<div class="archive-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
-			
-			<div class="article_grid">
 
 		<?php if ( have_posts() ) : ?>
 
-			<?php
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
+			<div class="article_grid">
+					<?php $i = 1; while ( have_posts() && $i < 7):
+									/* Start the Loop */
+						the_post();
+									 get_template_part( 'template-parts/content', 'grid');
 
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', 'search');
-			endwhile;
 
-		else :
+					$i++; endwhile; ?>
+				</div>
+
+					<div class="article_list">
+					<?php $i = 1; while ( have_posts() && $i < 6) :
+						// output posts 7 + of main query
+						the_post();
+						get_template_part( 'template-parts/content', 'list');
+
+						$i++; endwhile;
+						?>
+					</div>
+
+		<?php else :
 
 			get_template_part( 'template-parts/content', 'none' );
 
 		endif;
 		?>
-			</div>
-			
+
 			<?php the_posts_navigation(); ?>
-			
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
