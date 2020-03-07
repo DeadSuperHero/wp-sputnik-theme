@@ -27,7 +27,7 @@ if ( ! function_exists( 'sputnik_posted_on' ) ) :
 		$posted_on = sprintf(
 			/* translators: %s: post date. */
 			esc_html_x( '%s', 'post date', 'sputnik' ),
-			'<span>' . '<i class="fa fa-clock-o" aria-hidden="true"></i>'. $time_string . '</span>'
+			'<span>' . $time_string . '</span>'
 		);
 
 		echo '<span class="posted-on">' . $posted_on . '</span>'; // WPCS: XSS OK.
@@ -105,10 +105,11 @@ if ( ! function_exists( 'sputnik_post_thumbnail' ) ) :
 
 		<?php else : ?>
 
-				<?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'medium'); ?>
-				<div class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1" style="background: url(<?php echo $featured_img_url ?>) !important; background-size: cover !important; background-position: center !important;">
-					<?php sputnik_post_tags(); ?>
+				<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
+					<?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'medium'); ?>
+				<div class="post-thumbnail" style="background: url(<?php echo $featured_img_url ?>) !important; background-size: cover !important; background-position: center !important;">
 				</div><!-- .post-thumbnail -->
+			</a>
 
 		<?php
 		endif; // End is_singular().

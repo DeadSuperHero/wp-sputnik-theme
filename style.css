@@ -99,11 +99,7 @@ span.posted-on {
 	color: #8c8c8c;
 }
 
-.article_grid span.posted-on {
-	float: left;
-}
-
-.article_insert span.posted-on {
+span.posted-on {
 	float: right;
 }
 
@@ -206,7 +202,13 @@ h1 {
 
 .list_thumb {
 	display: inline-block;
-	vertical-align: t	op;
+	vertical-align: top;
+	padding: 0;
+	border-radius: 5px;
+}
+
+.list_thumb .post-thumbnail {
+	border-radius: 5px;
 }
 
 .list_thumb img {
@@ -243,7 +245,7 @@ h1 {
 	font-weight: 800;
 }
 
-.article_thumb:hover {
+.article_thumb:hover, .list_thumb:hover {
 	box-shadow: 0px 0px 3px #373737;
 	transition: box-shadow 0.2s ease-in;
 }
@@ -259,7 +261,7 @@ h1 {
 	transition: transform 0.5s ease;
 }
 
-.article_excerpt:hover header.entry-header h2.entry-title a {
+.article_excerpt:hover header.entry-header h2.entry-title a, .list_excerpt:hover header.entry-header h2.entry-title a {
 	color: #8f58b5;
 	transition: color 0.5s ease-in;
 }
@@ -290,7 +292,7 @@ h1 {
 	font-size: 18px;
 }
 
-.article_excerpt header.entry-header h2.entry-title a {
+.article_excerpt header.entry-header h2.entry-title a, .list_excerpt header.entry-header h2.entry-title a {
 	text-decoration: none;
 	color: #585858;
 	font-weight: 600;
@@ -1109,8 +1111,13 @@ ul.sub-menu img._mi _before._image {
 		margin-left: 5px;
 	}
 
-	.post-thumbnail {
+	.article_grid .post-thumbnail {
 		min-height: 13em;
+	}
+
+	.article_list .post-thumbnail {
+		width: 200px;
+		height: 115px;
 	}
 
 	.mobile-tags {
@@ -1413,7 +1420,7 @@ li.relatedthumb:hover > li.relatedthumb img:hover{
       width: 75%;
   }
 
-  .article_excerpt h2.entry-title {
+  .article_excerpt h2.entry-title, .list_excerpt h2.entry-title {
       margin: 0;
       padding: 0;
       font-size: 15px;
