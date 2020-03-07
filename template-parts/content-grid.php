@@ -32,7 +32,6 @@
 
 			<div class="entry-meta">
 				<?php
-				sputnik_posted_by();
 				sputnik_posted_on();
 				?>
 
