@@ -44,7 +44,7 @@ get_header();
 		</div>
 
 			<div class="article_list">
-			<?php $i = 1; while ( have_posts() && $i < 5) :
+			<?php $i = 1; while ( have_posts() && $i < 6) :
 				// output posts 7 + of main query
 				the_post();
 				get_template_part( 'template-parts/content', 'list');
